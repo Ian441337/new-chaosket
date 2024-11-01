@@ -1,0 +1,22 @@
+{
+  "_fv": 66,
+  "_type": "blockstates",
+  "definition": {
+    "block": "Nightfruit",
+    "blockstateList": [
+      {
+        "texture": "lightfruit-up",
+        "textureTop": "lightfruit-down",
+        "textureLeft": "lightfruit",
+        "textureFront": "lightfruit",
+        "textureRight": "lightfruit",
+        "textureBack": "lightfruit",
+        "particleTexture": "",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "luminance": 15,
+        "boundingBoxes": []
+      }
+    ]
+  }
+}

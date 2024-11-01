@@ -1,0 +1,411 @@
+{
+  "mod_elements": [
+    {
+      "name": "NightfruitOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightfruit_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/procedures/NightfruitOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/nightfruit"
+    },
+    {
+      "name": "Nightfruit",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightfruit",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chaosket/blockstates/nightfruit.json",
+          "src/main/resources/data/chaosket/loot_tables/blocks/nightfruit.json",
+          "src/main/java/wuzu/ian/chaosket/block/NightfruitBlock.java",
+          "src/main/resources/assets/chaosket/models/item/nightfruit.json",
+          "src/main/resources/assets/chaosket/models/block/nightfruit.json"
+        ]
+      },
+      "path": "~/nightfruit"
+    },
+    {
+      "name": "Nightfruitblockstate",
+      "type": "blockstates",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightfruitblockstate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chaosket/models/block/nightfruitblockstate_blockstate_0.json"
+        ]
+      },
+      "path": "~/nightfruit"
+    },
+    {
+      "name": "ShaderRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shader_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/procedures/ShaderRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Shader",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shader",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/item/ShaderItem.java",
+          "src/main/resources/assets/chaosket/models/item/shader.json"
+        ]
+      }
+    },
+    {
+      "name": "DisableshaderRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "disableshader_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/procedures/DisableshaderRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Disableshader",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "disableshader",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chaosket/models/item/disableshader.json",
+          "src/main/java/wuzu/ian/chaosket/item/DisableshaderItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Infestation",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infestation",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/potion/InfestationMobEffect.java"
+        ]
+      },
+      "path": "~/potions"
+    },
+    {
+      "name": "InfestationOnEffectActiveTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infestation_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/procedures/InfestationOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/potions"
+    },
+    {
+      "name": "Oozing",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oozing",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/potion/OozingMobEffect.java"
+        ]
+      },
+      "path": "~/potions"
+    },
+    {
+      "name": "OozingActiveTickCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oozing_active_tick_condition",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/procedures/OozingActiveTickConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/potions"
+    },
+    {
+      "name": "Weaving",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weaving",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/potion/WeavingMobEffect.java"
+        ]
+      },
+      "path": "~/potions"
+    },
+    {
+      "name": "WeavingActiveTickCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weaving_active_tick_condition",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/procedures/WeavingActiveTickConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/potions"
+    },
+    {
+      "name": "PotionOozing",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion_oozing",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/potions"
+    },
+    {
+      "name": "PotionWeaving",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion_weaving",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/potions"
+    },
+    {
+      "name": "PotionInfestation",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion_infestation",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/potions"
+    },
+    {
+      "name": "RezepiInfestation",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rezepi_infestation",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/recipes/brewing/RezepiInfestationBrewingRecipe.java"
+        ]
+      },
+      "path": "~/potions"
+    },
+    {
+      "name": "RezepiWeaving",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rezepi_weaving",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/recipes/brewing/RezepiWeavingBrewingRecipe.java"
+        ]
+      },
+      "path": "~/potions"
+    },
+    {
+      "name": "RezepiOozing",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rezepi_oozing",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/recipes/brewing/RezepiOozingBrewingRecipe.java"
+        ]
+      },
+      "path": "~/potions"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.minecraft.potion.effect.potion_oozing": "Potion of Oozing",
+      "item.minecraft.lingering_potion.effect.potion_weaving": "Lingering Potion of Weaving",
+      "item.minecraft.potion.effect.potion_infestation": "Potion of Infestation",
+      "item.minecraft.lingering_potion.effect.potion_infestation": "Lingering Potion of Infestation",
+      "item.minecraft.splash_potion.effect.potion_oozing": "Splash Potion of Oozing",
+      "item.minecraft.splash_potion.effect.potion_infestation": "Splash Potion of Infestation",
+      "effect.chaosket.oozing": "Oozing",
+      "item.minecraft.splash_potion.effect.potion_weaving": "Splash Potion of Weaving",
+      "effect.chaosket.infestation": "Infestation",
+      "item.minecraft.potion.effect.potion_weaving": "Potion of Weaving",
+      "block.chaosket.nightfruit": "Nightfruit",
+      "item.minecraft.tipped_arrow.effect.potion_weaving": "Arrow of Weaving",
+      "item.minecraft.tipped_arrow.effect.potion_infestation": "Arrow of Infestation",
+      "item.chaosket.shader": "Shader",
+      "item.minecraft.lingering_potion.effect.potion_oozing": "Lingering Potion of Oozing",
+      "effect.chaosket.weaving": "Weaving",
+      "item.minecraft.tipped_arrow.effect.potion_oozing": "Arrow of Oozing",
+      "item.chaosket.disableshader": "Disableshader"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "nightfruit",
+        "children": []
+      },
+      {
+        "name": "potions",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "chaosket",
+    "modName": "Chaosket",
+    "version": "1.0.0",
+    "author": "Ian13, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "use_compiled_mods",
+      "geckolib",
+      "jei"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "wuzu.ian.chaosket"
+  },
+  "mcreatorVersion": 202400232117
+}

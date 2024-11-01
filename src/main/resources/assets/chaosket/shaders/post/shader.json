@@ -1,0 +1,13 @@
+{
+    "vertex": "chaosket:shaders/post/shader.vsh",
+    "fragment": "chaosket:shaders/post/shader.fsh",
+    "attributes": ["Position", "UV0"],
+    "uniforms": {
+      "ProjectionMatrix": "projection_matrix",
+      "ViewMatrix": "view_matrix",
+      "ModelMatrix": "model_matrix",
+      "Texture": "texture_sampler",
+      "Time": "time"
+    }
+  }
+  

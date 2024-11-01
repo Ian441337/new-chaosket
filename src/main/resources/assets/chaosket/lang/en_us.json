@@ -1,0 +1,20 @@
+{
+  "item.minecraft.potion.effect.potion_oozing": "Potion of Oozing",
+  "item.minecraft.lingering_potion.effect.potion_weaving": "Lingering Potion of Weaving",
+  "item.minecraft.potion.effect.potion_infestation": "Potion of Infestation",
+  "item.minecraft.lingering_potion.effect.potion_infestation": "Lingering Potion of Infestation",
+  "item.minecraft.splash_potion.effect.potion_oozing": "Splash Potion of Oozing",
+  "item.minecraft.splash_potion.effect.potion_infestation": "Splash Potion of Infestation",
+  "effect.chaosket.oozing": "Oozing",
+  "item.minecraft.splash_potion.effect.potion_weaving": "Splash Potion of Weaving",
+  "effect.chaosket.infestation": "Infestation",
+  "item.minecraft.potion.effect.potion_weaving": "Potion of Weaving",
+  "block.chaosket.nightfruit": "Nightfruit",
+  "item.minecraft.tipped_arrow.effect.potion_weaving": "Arrow of Weaving",
+  "item.minecraft.tipped_arrow.effect.potion_infestation": "Arrow of Infestation",
+  "item.chaosket.shader": "Shader",
+  "item.minecraft.lingering_potion.effect.potion_oozing": "Lingering Potion of Oozing",
+  "effect.chaosket.weaving": "Weaving",
+  "item.minecraft.tipped_arrow.effect.potion_oozing": "Arrow of Oozing",
+  "item.chaosket.disableshader": "Disableshader"
+}

@@ -1,0 +1,13 @@
+{
+    "vertex": "my_mod:shaders/core/my_item_shader.vsh",
+    "fragment": "my_mod:shaders/core/my_item_shader.fsh",
+    "attributes": ["Position", "UV0"],
+    "uniforms": {
+      "ProjectionMatrix": "projection_matrix",
+      "ViewMatrix": "view_matrix",
+      "ModelMatrix": "model_matrix",
+      "Texture": "texture_sampler",
+      "Time": "time"
+    }
+  }
+  

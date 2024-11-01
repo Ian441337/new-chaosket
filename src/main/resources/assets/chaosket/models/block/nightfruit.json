@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chaosket:block/lightfruit-down",
+    "up": "chaosket:block/lightfruit-down",
+    "north": "chaosket:block/lightfruit",
+    "east": "chaosket:block/lightfruit",
+    "south": "chaosket:block/lightfruit",
+    "west": "chaosket:block/lightfruit",
+    "particle": "chaosket:block/lightfruit-down"
+  },
+  "render_type": "solid"
+}

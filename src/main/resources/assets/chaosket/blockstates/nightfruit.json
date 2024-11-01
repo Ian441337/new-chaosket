@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "blockstate=0": {
+      "model": "chaosket:block/nightfruit"
+    },
+    "blockstate=1": {
+      "model": "chaosket:block/nightfruitblockstate_blockstate_0"
+    }
+  }
+}

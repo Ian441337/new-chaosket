@@ -1,0 +1,21 @@
+{
+  "_fv": 66,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Weaving",
+    "splashName": "Splash Potion of Weaving",
+    "lingeringName": "Lingering Potion of Weaving",
+    "arrowName": "Arrow of Weaving",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Weaving"
+        },
+        "duration": 3600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}
